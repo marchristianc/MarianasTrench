@@ -1,0 +1,97 @@
+/* Specific fixes for iPhone */
+body {
+	max-width:960px;
+}
+#trench, #topsubflash, #middlesubflash, #bottomsubflash, .sprite, #depthgauges, #gaugemask {
+	background:none !important;
+	display:none;
+}
+
+#backgrounds .background1 {
+	background:url("../images/bg_body1_ipad.jpg") no-repeat 50% 0;
+}
+
+#backgrounds .background2 {
+	background:url("../images/bg_body2_ipad.jpg") no-repeat 50% 0;
+}
+#backgrounds .background3 {
+	background:url("../images/bg_body3_ipad.jpg") no-repeat 50% 0;
+}
+#backgrounds .background4 {
+	background:url("../images/bg_body4_ipad.jpg") no-repeat 50% 0 #000;
+	-webkit-background-size:1187px 1779px;
+}
+
+#utility {
+	width:960px;
+}
+#content .mainsection {
+    background: none;
+}
+input {
+	-webkit-appearance:none;
+	-webkit-border-radius: 0;
+}
+#section4 .sectioncontent {
+	padding-top:290px;
+}
+
+/* Depth gauge overrides for depth facts */
+
+.depthgaugefeet,
+.depthgaugemeters {
+	background:none;
+}
+#depthgauges {
+	top:0;
+}
+
+/* Vertical placement of facts */
+.depth1044ft {
+	top:382px;
+}
+.depth2716ft {
+	top:513px;
+}
+.depth3300ft {
+	top:558px;
+}
+.depth5000ft {
+	top:691px;
+}
+.depth7041ft {
+	top:855px;
+}
+.depth8200ft {
+	top:937px;
+}
+.depth12467ft {
+	top:1284px;
+}
+.depth14764ft {
+	top:1453px;
+}
+.depth15700ft {
+	top:1538px;
+}
+.depth16500ft {
+	top:1588px;
+}
+.depth23000ft {
+	top:2115px;
+}
+.depth25262ft {
+	top:2282px;
+}
+.depth31000ft {
+	top:2746px;
+}
+.depth36070ft {
+	top:3146px;
+}
+
+/* remove DL next prev hover states */
+
+.nextprevnav:hover {
+	background-color:rgba(5,19,36,.5);
+}
