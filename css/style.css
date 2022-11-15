@@ -147,6 +147,7 @@ a.button.left, .content a.button.left, #page-pagination .left a {
 	background: url(../images/logo_deepchallenge.png);
 	height: 163px;
 	width: 380px;
+	position: center;
 }
 #national-geographic {
 	float: left;
